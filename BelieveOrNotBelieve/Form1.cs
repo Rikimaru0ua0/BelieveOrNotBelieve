@@ -78,7 +78,7 @@ namespace BelieveOrNotBelieve
         private void btnSaveQuest_Click(object sender, EventArgs e)
         {
            // database[(int)nudNumber.Value - 1].text = tboxQuestion.Text;
-            database[(int)nudNumber.Value - 1].trueFalse = cboxTrue.Checked;
+            database[(int)nudNumber.Value - 1].trueFalse = cboxTrue.Checked; 
         }
 
         
